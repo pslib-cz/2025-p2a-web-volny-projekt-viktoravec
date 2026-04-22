@@ -2,9 +2,9 @@ LIVE WEBSITE: [HERE](https://pslib-cz.github.io/2025-p2a-web-volny-projekt-vikto
 
 # Volný projekt
 
-> **Jméno a příjmení:** `Doplňte`
+> **Jméno a příjmení:** Viktor Oravec (viktoravec)
 
-> **Název projektu:** `Doplňte`
+> **Název projektu:** MARCO POLO TRAVEL - Cestovní kancelář zážitkových expedic
 
 ---
 
@@ -38,9 +38,9 @@ _Shrnutí všech odkazů na jednom místě. Průběžně aktualizujte._
 | Výstup | Odkaz |
 |---|---|
 | GitHub Pages (live) | [https://pslib-cz.github.io/2025-p2a-web-volny-projekt-viktoravec](#) |
-| Grafický manuál (Figma / Canva) | [`Doplň odkaz`](#) |
-| Grafický návrh webu (Figma) | [`Doplň odkaz`](#) |
-| Fotografie / média | [`Doplň odkaz`](#) |
+| Grafický manuál (Figma / Canva) | [https://www.figma.com/design/zCHCfw3n10Z7zNiGED9XIz/WEB---projekt?node-id=0-1&t=qJxR2KeuNNm9bIVn-1](#) |
+| Grafický návrh webu (Figma) | [https://www.figma.com/design/zCHCfw3n10Z7zNiGED9XIz/WEB---projekt?node-id=13-2&t=qJxR2KeuNNm9bIVn-1](#) |
+| Fotografie / média | [https://pslib-my.sharepoint.com/:f:/g/personal/viktor_oravec_024_pslib_cz/IgA3drAksbR2RK_f5A0jGQF9AftqzF14kjmUYOoD_9nmuHM?e=elIeAO](#) |
 
 ---
 
@@ -48,4 +48,4 @@ _Shrnutí všech odkazů na jednom místě. Průběžně aktualizujte._
 
 _Prostor pro vlastní poznámky, zpětnou vazbu, TODO apod._
 
-`Volný prostor pro poznámky.`
+Roads? Where we are going we don't need roads! 
