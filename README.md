@@ -10,9 +10,9 @@ QUICK ACCESS TO WEBSITE: [HERE](https://pslib-cz.github.io/2025-p2a-web-volny-pr
 
 ## O projektu
 
-_Krátký popis mého projektu – čemu se věnuje, co nabízí a jaký problém řeší?_
+_Krátký popis projektu – čemu se věnuje, co nabízí a jaký problém řeší?_
 
-`Služba MARCO POLO TRAVEL nabízí prémiové poznávací zájezdy do exotických krajin a koutů světa. Zakládá si na kvalitně připraveném itineráři cesty pro menší skupiny lidí. To se podepisuje i na cenách zájezdu. které jsou v rěchto lukrativních destinacích vyšší než je zvykem. Celkově je ale tato cestovní kancelář velice oblíbená a její klientelu tvoří jak rodiny tak jednotlivci.`
+`Služba MARCO POLO TRAVEL nabízí prémiové poznávací zájezdy do exotických krajin a koutů světa. Zakládá si na kvalitně připraveném itineráři cesty pro menší skupiny lidí. To se podepisuje i na cenách zájezdu, které jsou v těchto nevšedních destinacích vyšší než je zvykem u běžných zájezdů "k Jadranu". Celkově je ale tato cestovní kancelář velice oblíbená a její klientelu tvoří jak rodiny tak jednotlivci.`
 
 ---
 
@@ -26,7 +26,7 @@ _ Konkurenční projekty. Co se mi na nich líbí, co ne? V čem se můžu inspi
 
 ## Cílová skupina
 
-_Kdo je můj cílový uživatel / zákazník? Popis typického zástupce cílové skupiny._
+_Kdo je cílový uživatel / zákazník? Popis typického zástupce cílové skupiny._
 
 `Nejvíce zastoupená skupina zákazníků jsou u tohoto stylu cestování především starší lidé, senioři, kteří jsou natolik dostatečně finančně zajištěni, že pro ně takto nákladná cesta není problém. Především u seniorů se očekává, že si zaplatí zájezd do Africké divočiny, sbalí si svoji typickou béžovou cestovatelskou košili, expediční slaměný klobouk a dalekohled a už se vidí v jeepu, ze kteréhu pozorují krásy savany.`
 
