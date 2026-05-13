@@ -31,7 +31,7 @@
 
 @layer layout {
     .header {
-        background-image: url("../images/bg_delete_edit.png");
+        background-image: url("../images/bd_edit_remove.webp");
         background-size: cover;
         background-position: center top;
         background-repeat: no-repeat;
