@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="images/company_logo.webp">
     <title>Marco Polo travel</title>
 </head>
 <body>
@@ -41,13 +42,13 @@
 
         <section class="header">
             <div class="header__nav">
-                <div class="nav__logo">
+                <a class="nav__logo" href="index.html">
                     <img class="logo__graphic" src="images/company_logo.webp" alt="logo">
                     <div class="logo__text">
                         <p class="text__up">MARCO POLO</p>
                         <p class="text__bottom">TRAVEL</p>
                     </div>
-                </div>
+                </a>
                 <nav class="nav__menu">
                     <ul class="menu__list">
                         <li>
@@ -85,7 +86,7 @@
                 </nav>
             </div>
             <div class="header__title">
-                <h2 class="title__top">POZNÁVEJTE. ZAŽÍVEJTE. INSPIRUJTE SE.</h2>
+                <h2 class="title__top">POZNÁVEJTE. ZAŽÍVEJTE. INSPIRUJTE&nbspSE.</h2>
                 <h1 class="title__main">Výjimečné cesty do exotických světů</h1>
                 <h2 class="title__bottom">Poznávací zájezdy do Afriky, Ameriky a Asie pro ty, kteří chtějí zažít víc než jen dovolenou.</h2>
             </div>
@@ -126,7 +127,7 @@
                     </svg>
                     <div class="item__info">
                         <p class="item__title">EXOTICKÉ DESTINACE</p>
-                        <p>Afrika, Amerika, Asie - svět je na dosah.</p>
+                        <p>Afrika, Amerika, Asie a Austrálie - svět je na dosah.</p>
                     </div>
                 </div>
                 <div class="features__item">
@@ -152,14 +153,63 @@
     </header>
 
     <main>
-        <div>
-            <p>VYBERTE SI SVOU DALŠÍ CESTU</p>
+        <div class="continents">
+            <section class="continents__titlec">
+                 <p class="titlec__top">VYBERTE SI SVOU DALŠÍ CESTU</p>
+                 <div class="titlec__bottom">
+                    <span class="bottom__line bottom__line--up"></span>
+                    <p class="bottom__text">Kam vás láká dobrodružství?</p>
+                    <span class="bottom__line bottom__line--down"></span>
+                 </div>
+            </section>
+            <section class="continents__cards">
+                <div class="cards__itemc cards__itemc--africa">
+                    <span class="itemc__line"></span>
+                    <p class="itemc__name">AFRIKA</p> 
+                    <p class="itemc__info">Divoká příroda, safari a nezapomenutelné zážitky. Vydejte se prozkoumat krásy savany.</p>
+                    <a class="button button--itemc" href="#">
+                        <p>ZOBRAZIT DESTINACE</p>
+                        <svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 17.25V3.75M7.5 15.75V2.25M1.5 4.5L7.5 1.5L15 4.5L21 1.5V15L15 18L7.5 15L1.5 18V4.5Z" stroke="#F4EFE6" stroke-width="3" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="cards__itemc cards__itemc--america">
+                    <span class="itemc__line"></span>
+                    <p class="itemc__name">AMERIKA</p> 
+                    <p class="itemc__info">Starobylé památky, dechberoucí scenérie a města. Zažijte jedinečnou atmosféru pralesů a hor.</p>
+                    <a class="button button--itemc" href="#">
+                        <p>ZOBRAZIT DESTINACE</p>
+                        <svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 17.25V3.75M7.5 15.75V2.25M1.5 4.5L7.5 1.5L15 4.5L21 1.5V15L15 18L7.5 15L1.5 18V4.5Z" stroke="#F4EFE6" stroke-width="3" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="cards__itemc cards__itemc--asia">
+                    <span class="itemc__line"></span>
+                    <p class="itemc__name">ASIE</p> 
+                    <p class="itemc__info">Exotická kultura, tropické ráje a deštné pralesy. Objevte tajemství starých chrámů a ruin.</p>
+                    <a class="button button--itemc" href="#">
+                        <p>ZOBRAZIT DESTINACE</p>
+                        <svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 17.25V3.75M7.5 15.75V2.25M1.5 4.5L7.5 1.5L15 4.5L21 1.5V15L15 18L7.5 15L1.5 18V4.5Z" stroke="#F4EFE6" stroke-width="3" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="cards__itemc cards__itemc--australia">
+                    <span class="itemc__line"></span>
+                    <p class="itemc__name">AUSTRÁLIE</p> 
+                    <p class="itemc__info">Nekonečné pustiny australské buše, spousta klokanů, pavouků a hadů. Expedice pro skutečné dobrodruhy.</p>
+                    <a class="button button--itemc" href="#">
+                        <p>ZOBRAZIT DESTINACE</p>
+                        <svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 17.25V3.75M7.5 15.75V2.25M1.5 4.5L7.5 1.5L15 4.5L21 1.5V15L15 18L7.5 15L1.5 18V4.5Z" stroke="#F4EFE6" stroke-width="3" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+            </section>
         </div>
     </main>
 </body>
-
-
-
-
 
 </html>
