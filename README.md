@@ -38,8 +38,8 @@ _Shrnutí všech odkazů na jednom místě. Průběžně aktualizováno._
 | Výstup | Odkaz |
 |---|---|
 | GitHub Pages (live) | [`LIVE GitHub Pages`](https://pslib-cz.github.io/2025-p2a-web-volny-projekt-viktoravec) |
-| Grafický manuál (Figma / Canva) | [`Zobrazit grafický návod`](https://www.figma.com/design/zCHCfw3n10Z7zNiGED9XIz/WEB---projekt?node-id=0-1&t=qJxR2KeuNNm9bIVn-1) |
-| Grafický návrh webu (Figma) | [`Náhled na návrh ve Figmě`](https://www.figma.com/design/zCHCfw3n10Z7zNiGED9XIz/WEB---projekt?node-id=13-2&t=X1hPGrkM3mRl4wVP-1) |
+| Grafický manuál (Figma / Canva) | [`Zobrazit grafický návod`](https://www.figma.com/design/Q8s3ymOLUFnrdKOMGS40jc/OravecViktor?node-id=0-1&t=5JXVzJ9zrUhvH6QY-1) |
+| Grafický návrh webu (Figma) | [`Náhled na návrh ve Figmě`](https://www.figma.com/design/Q8s3ymOLUFnrdKOMGS40jc/OravecViktor?node-id=0-1&t=5JXVzJ9zrUhvH6QY-1) |
 | Fotografie / média | [`Materiál na OneDrive`](https://pslib.sharepoint.com/sites/P2024A.MME-sk2/Sdilene%20dokumenty/Forms/AllItems.aspx?id=%2Fsites%2FP2024A%2EMME%2Dsk2%2FSdilene%20dokumenty%2F2025%20MME%20P2A%20%28HAL%29%2F06%20Projekt%20Brand%2F%5Fodevzdan%C3%A9%20projekty%2FViktor%20Oravec%20%2D%20WEB&viewid=2f8a9bd0%2Db3e3%2D42a0%2Dbff9%2D5b1007a6d47c&p=true) |
 
 ---
