@@ -30,7 +30,7 @@
 }
 
 @layer layout {
-    .header {
+    .header--main {
         background-image: linear-gradient(
             to bottom left,
             rgba(0, 0, 0, 0) 30%,
