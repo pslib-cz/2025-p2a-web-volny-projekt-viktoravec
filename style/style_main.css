@@ -149,11 +149,11 @@
     .menu__fav:hover svg path {
     fill: var(--deep_safari);
     }
-@media(max-width: 1150px) {
-    .menu__list {
+    @media(max-width: 1150px) {
+        .menu__list {
         display: none;
+        }
     }
-}
 
 /*text hlavni header*/
     .header__title {
@@ -330,7 +330,7 @@
         }
         .features__item::after {
         display: block;
-    }
+        }
     }
     
     /*kontinenty vyber*/
@@ -379,13 +379,12 @@
         background-color: var(--sunset_gold);
     }
     @media(min-width: 1000px) {
-    .titlec__bottom {
-        flex-direction: row;
-    }
-
-    .bottom__line--up {
-        display: block;
-    }
+        .titlec__bottom {
+            flex-direction: row;
+        }
+        .bottom__line--up {
+            display: block;
+        }
     }
     .continents__cards {
         display: grid;
@@ -407,59 +406,55 @@
         background-repeat: no-repeat;
         min-width: 225px;
         box-sizing: border-box;
-    background-image:
+        background-image:
         linear-gradient(
             to bottom left,
             rgba(0, 0, 0, 0) 25%,
             rgba(0, 0, 0, 0.9)
         ),
         url("../images/temple_forest2.jpg");
-
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
     .cards__itemc:hover {
         box-shadow: 7px 7px 15px rgba(0,0,0,0.4);
     }
     .cards__itemc--africa {
-    background-image:
+        background-image:
         linear-gradient(
             to bottom left,
             rgba(0, 0, 0, 0) 25%,
             rgba(0, 0, 0, 0.9)
         ),
         url("../images/africa.png");
-
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
     .cards__itemc--america {
-    background-image:
+        background-image:
         linear-gradient(
             to bottom left,
             rgba(0, 0, 0, 0) 25%,
             rgba(0, 0, 0, 0.9)
         ),
         url("../images/peru_city.jpg");
-
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
     .cards__itemc--australia {
-    background-image:
+        background-image:
         linear-gradient(
             to bottom left,
             rgba(0, 0, 0, 0) 25%,
             rgba(0, 0, 0, 0.9)
         ),
         url("../images/kangaroo.png");
-
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
     .cards__itemc p {
         margin: 0;
@@ -475,7 +470,6 @@
         color: var(--pure_white);
         font-weight: 700;
         font-size: clamp(1.75rem, 3vw, 2.2rem);
-
     }
     .itemc__info {
         font-family: var(--inter);
@@ -507,14 +501,135 @@
         background-color: var(--sunset_gold_hover);
     }
     @media(min-width: 700px) {
-    .continents__cards {
-        grid-template-columns: 1fr 1fr;
-    }
+        .continents__cards {
+            grid-template-columns: 1fr 1fr;
+        }
     }
     @media(min-width: 1700px) {
-    .continents__cards {
-        grid-template-columns: repeat(4, 1fr);
-    }
+        .continents__cards {
+            grid-template-columns: repeat(4, 1fr);
+        }
     }
 
+/*proc cestovat s nima*/
+    .travel {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+    .travel__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .travel__badges {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .info__start {
+        font-family: var(--inter);
+        color: var(--sunset_gold);
+        font-weight: 700;
+        font-size: clamp(1.2rem, 3vw, 1.5rem);
+        margin: 0;
+    }
+    .info__title {
+        font-family: var(--literata);
+        font-size: clamp(2.1rem, 3vw, 3rem);
+        text-align: center;
+        font-weight: 700;
+        padding-top: 1rem;
+        margin: 0;
+    }
+    .info__text {
+        font-family: var(--inter);
+        font-size: clamp(1.1rem, 3vw, 1.25rem);
+        margin: 0;
+        margin-top: 1.5rem;
+        text-align: center;
+        max-width: 850px;
+    }
+    .info__button {
+        display: flex;
+        padding: .2rem 1.5rem;
+        justify-content: center;
+        background-color: var(--sunset_gold);
+        color: var(--pure_white);
+        font-family: var(--inter);
+        font-weight: 600;
+        font-size: 1rem;
+        text-decoration: none;
+        align-items: center;
+        border-radius: .8rem;
+        margin-top: 1.5rem;
+        gap: 1.5rem;
+    }
+    .info__button:hover {
+        background-color: var(--sunset_gold_hover);
+    }
+    .travel__badges {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        margin-top: 5rem;
+    }
+    .badges__item {
+        display: flex;
+        gap: 1rem;
+        max-width: 500px;
+        align-items: center;
+        transition: text-shadow 0.3s ease;
+    }
+    .badges__item:hover {
+        text-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+    }
+    .item__icon {
+        background-color: var(--sand_beige);
+        padding: 1rem;
+        border-radius: 40rem;
+        flex-shrink: 0;
+    }
+    .desc__title {
+        font-family: var(--inter);
+        color: var(--deep_safari);
+        font-weight: 700;
+        font-size: clamp(1.3rem, 3vw, 1.5rem);
+        margin: 0;
+    }
+    .desc__text {
+        font-family: var(--inter);
+        font-size: clamp(1rem, 5vw, 1.25rem);
+        margin: 0;
+        margin-top: 1rem;
+    }
+    @media(min-width: 800px) {
+        .travel__badges {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+    @media(min-width: 1250px) {
+        .travel {
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            margin-top: 5rem;
+            margin: 5rem auto;
+            max-width: 2000px;
+        }
+        .travel__badges {
+            margin: 0;
+        }
+        .travel__info {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+        }
+        .info__text {
+            text-align: start;
+            max-width: 550px;
+        }
+    }
+
+
+    
 }
