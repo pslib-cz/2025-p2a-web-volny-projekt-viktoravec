@@ -27,6 +27,10 @@
     body {
         margin: 0 auto;
     }
+
+    html {
+        scroll-behavior: smooth;
+    }
 }
 
 @layer layout {
@@ -416,9 +420,11 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+        transition: box-shadow 0.3s ease, transform 0.3s ease;
     }
     .cards__itemc:hover {
-        box-shadow: 7px 7px 15px rgba(0,0,0,0.4);
+        box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.25);
+        transform: translateY(-5px);
     }
     .cards__itemc--africa {
         background-image:
@@ -614,7 +620,7 @@
             align-items: center;
             margin-top: 5rem;
             margin: 5rem auto;
-            max-width: 2000px;
+            max-width: 1750px;
         }
         .travel__badges {
             margin: 0;
@@ -630,6 +636,210 @@
         }
     }
 
+/*oblibeny zajezdy*/
 
-    
+    .favourite {
+        background-color: var(--light_gray);
+        padding: clamp(1rem, 4svw, 2rem);
+        margin: 2rem 1rem;
+        border-radius: 1rem;
+        overflow: hidden;
+        justify-self: center;
+        max-width: 1750px;
+    }
+    .favourite__top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+    }
+    .title__fav {
+        color: var(--sunset_gold);
+        font-family: var(--inter);
+        font-weight: 700;
+        font-size: clamp(1.2rem, 3vw, 1.5rem);
+        margin: 0;
+        padding-top: 1rem;
+    }
+    .title__name {
+        font-family: var(--literata);
+        font-weight: 700;
+        font-size: clamp(2.1rem, 3vw, 3rem);
+        padding-top: 1rem;
+        margin: 0;
+    }
+    .more__button {
+        display: flex;
+        padding: 1rem 1rem;
+        width: fit-content;
+        margin: 1rem 0 0 0;
+        max-width: 20rem;
+        color: var(--deep_safari);
+        font-family: var(--inter);
+        border: 2px solid var(--deep_safari);
+        font-weight: 650;
+        font-size: clamp(1rem, 2vw, 1.1rem);
+        justify-content: center;
+        text-align: center;
+        text-decoration: none;
+        align-items: center;
+        border-radius: .8rem; 
+    }
+    .more__button:hover {
+        color: var(--light_gray);
+        border: 2px solid var(--deep_safari);
+        background-color: var(--deep_safari);
+    }
+    .more__button:hover svg path {
+        stroke: var(--light_gray);
+    }
+    .more__hidden {
+        display: none;
+    }
+    .more__text {
+        margin: 0;
+    }
+    .favourite__items {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto 1fr auto;
+        grid-auto-rows: auto auto auto 1fr auto;
+        margin: 2rem 0;
+        align-items: stretch;
+        gap: 1rem;
+    }
+    .items__card {
+        display: grid;
+        grid-template-rows: subgrid;
+        grid-row: span 5;
+        background-color: var(--pure_white);
+        border-radius: 1rem;
+        overflow: hidden;
+        position:relative;
+        align-self: stretch;
+        transition: box-shadow 0.3s ease, transform 0.3s ease;
+    }
+    .items__card:hover {
+        box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.25);
+        transform: translateY(-5px);
+    }
+    .card__image {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .card__fav {
+        position: absolute;
+        top: .5rem;
+        right: .5rem;
+        width: 10%;
+        max-width: 55px;
+        min-width: 35px;
+    }
+    .card__fav:hover {
+        fill: var(--pure_white);
+    }
+    .image__wrapper {
+        position: relative;
+        width: 100%;
+    }
+    .card__country {
+        background-color: var(--sunset_gold);
+        font-family: var(--inter);
+        font-weight: 500;
+        color: var(--pure_white);
+        border-radius: 50rem;
+        text-align: center;
+        width: fit-content;
+        padding: .35rem .75rem;
+        margin: 0 0 0 1rem;
+        font-size: clamp(.7rem, 4vw, 1.1rem);
+    }
+    .card__location {
+        font-family: var(--inter);
+        font-weight: 600;
+        margin: 0 1rem 0 1rem;
+        font-size: clamp(1.5rem, 5vw, 1.5rem);
+    }
+    .card__info {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 0 1rem;
+        gap: .75rem;
+    }
+    .info__length {
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+    }
+    .length__info {
+        font-family: var(--inter);
+        font-weight: 600;
+        color: var(--soft_gray);
+        font-size: clamp(.5rem, 5vw, 1rem);
+        margin: 0;
+    }
+    .info__size {
+        display: flex;
+        align-items: center;
+        gap: .5rem; 
+    }
+    .size__info {
+        font-family: var(--inter);
+        font-weight: 600;
+        color: var(--soft_gray);
+        font-size: clamp(.5rem, 5vw, 1rem);
+        margin: 0;   
+    }
+    .card__price {
+        font-family: var(--inter);
+        font-weight: 600;
+        font-size: clamp(1rem, 7vw, 1.75rem);
+        color: var(--sunset_gold);
+        margin: 0 0 1rem 1rem;
+    }
+    @media(min-width: 800px) {
+        .card__info {
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 0 1rem 0 1rem;
+        }
+    }
+    @media(min-width: 700px) {
+        .favourite__items {
+            grid-template-columns: 1fr 1fr;
+        }
+        .favourite__top {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            text-align: start;
+        }
+        .more__hidden {
+            display: block;
+        }
+        .more__button {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+        }
+    }
+    @media(min-width: 1200px) {
+        .favourite__items {
+            grid-template-columns: repeat(4, 1fr);
+        }
+        .card__info {
+            flex-direction: column;
+        }
+    }
+    @media(min-width: 1500px) {
+        .card__info {
+            flex-direction: row;
+        }
+    }
+
+
+
 }
