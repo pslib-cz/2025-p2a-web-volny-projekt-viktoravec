@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style_contact.css">
     <link rel="icon" href="images/company_logo.webp">
-    <title>Marco Polo travel</title>
+    <title>Kontakt & O nás</title>
 </head>
 <body>
     <header>
-        <div class="header__strip">
+        <section class="header__strip">
             <div class="strip__section">
                 <a class="strip__icons" href="tel:+420792775691">
                     <svg width="30" height="30" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -37,7 +37,7 @@
                     <p class="strip__info">Sledujte nás</p>
                 </a>
             </div>
-        </div>
+        </section>
 
         <section class="header header--contact">
             <div class="header__nav">
@@ -83,7 +83,7 @@
                             </a>
                         </li>
                         <li>
-                            <a class="button button--fill" href="#">
+                            <a class="button button--fill" href="#write">
                                 <p>POPTÁVKA ZÁJEZDU</p>
                             </a>
                         </li>
@@ -180,6 +180,7 @@
                 <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5049.445179312499!2d15.037107836946738!3d50.743633885320136!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47093665a419bd53%3A0x2ff7af855f76bbec!2sDubice%20453%2C%20463%2012%20Liberec-Doub%C3%AD!5e0!3m2!1scs!2scz!4v1779806940029!5m2!1scs!2scz" width="auto" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
+
         <section class="team">
             <div class="team__title">
                 <p class="title__text">Náš tým</p>
@@ -212,6 +213,55 @@
                     <p class="item__worker">Jan Dvořák</p>
                     <p class="item__position">Zakladatel a CEO</p>
                     <p class="item__desc">Cestovatel a dobrodruh s vášní pro objevování nepoznaného.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="forms" id="write">
+            <div class="forms__title">
+                <p class="title__formtext">Napište nám</p>
+                <span class="bottom__line bottom__line--down"></span>
+            </div>
+            <div class="forms__content">
+                <div class="forms__fill">
+                    <form action="https://formsubmit.co/viktor.oravec.024@pslib.cz" method="POST">
+                        <p class="forms__first">Jméno a příjmení <span class="name__red">*</span></p>
+                        <input class="forms__input forms__input--name" type="text" name="jmeno" placeholder="Dan Přibáň" required>
+
+                        <p class="forms__other">Váš e-mail <span class="name__red">*</span></p>
+                        <input class="forms__input forms__input--mail" type="email" name="email" placeholder="email@example.com" required>
+
+                        <p class="forms__other">Předmět zprávy <span class="name__red">*</span></p>
+                        <input class="forms__input forms__input--object" type="text" name="predmet" placeholder="Poptávka zájezdu" required>
+
+                        <p class="forms__other">Zpráva</p>
+                        <textarea class="forms__input forms__input--message" name="zprava" placeholder="Obsah zprávy"></textarea>
+
+                        <div class="forms__footer">
+                            <div class="forms__consent">
+                                <input type="checkbox" id="consent" name="consent" required>
+                                <label class="consent__info" for="consent">
+                                    Souhlasím se zpracováním
+                                    <a class="personal" href="https://mpsv.gov.cz/informace-o-zpracovani-osobnich-udaju-gdpr-">
+                                        osobních&nbsp;údajů
+                                    </a>
+                                </label>
+                            </div>
+                            <button class="forms__button" type="submit">
+                                ODESLAT
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <mask id="path-1-inside-1_159_727" fill="white">
+                                        <path d="M4 20C3.45 20 2.97933 19.8043 2.588 19.413C2.19667 19.0217 2.00067 18.5507 2 18V6C2 5.45 2.196 4.97933 2.588 4.588C2.98 4.19667 3.45067 4.00067 4 4H20C20.55 4 21.021 4.196 21.413 4.588C21.805 4.98 22.0007 5.45067 22 6V18C22 18.55 21.8043 19.021 21.413 19.413C21.0217 19.805 20.5507 20.0007 20 20H4ZM12 13L4 8V18H20V8L12 13ZM12 11L20 6H4L12 11ZM4 8V6V18V8Z"/>
+                                    </mask>
+                                    <path d="M4 20C3.45 20 2.97933 19.8043 2.588 19.413C2.19667 19.0217 2.00067 18.5507 2 18V6C2 5.45 2.196 4.97933 2.588 4.588C2.98 4.19667 3.45067 4.00067 4 4H20C20.55 4 21.021 4.196 21.413 4.588C21.805 4.98 22.0007 5.45067 22 6V18C22 18.55 21.8043 19.021 21.413 19.413C21.0217 19.805 20.5507 20.0007 20 20H4ZM12 13L4 8V18H20V8L12 13ZM12 11L20 6H4L12 11ZM4 8V6V18V8Z" fill="black"/>
+                                    <path d="M4 8H2.5V18H4H5.5V8H4ZM2 18H-1L-0.999998 18.0036L2 18ZM4 4V0.999998L3.99636 1L4 4ZM22 6L19 5.99636V6H22ZM20 20L20.0036 17H20V20ZM12 13L10.41 15.544L12 16.5377L13.59 15.544L12 13ZM4 8H1V9.66274L2.41 10.544L4 8ZM4 18H1V21H4V18ZM20 18V21H23V18H20ZM20 8H23V2.58726L18.41 5.456L20 8ZM12 11L10.41 13.544L12 14.5377L13.59 13.544L12 11ZM20 6L21.59 8.54399L30.4604 3H20V6ZM4 6V3H1V6H4ZM4 20V17C4.08873 17 4.22844 17.0175 4.38612 17.0831C4.54342 17.1485 4.65131 17.2337 4.70932 17.2917L2.588 19.413L0.46668 21.5343C1.41668 22.4843 2.64879 23 4 23V20ZM2.588 19.413L4.70932 17.2917C4.76735 17.3497 4.85216 17.4572 4.91725 17.6137C4.98247 17.7704 4.99989 17.9089 5 17.9964L2 18L-0.999998 18.0036C-0.998364 19.3532 -0.483203 20.5844 0.46668 21.5343L2.588 19.413ZM2 18H5V6H2H-1V18H2ZM2 6H5C5 6.0894 4.9823 6.22969 4.91646 6.38779C4.8508 6.54546 4.76538 6.65335 4.70751 6.71112L2.588 4.588L0.468486 2.46487C-0.482729 3.41447 -1 4.64713 -1 6H2ZM2.588 4.588L4.70751 6.71112C4.65075 6.76779 4.54424 6.85202 4.38829 6.91696C4.23185 6.98211 4.09276 6.99989 4.00364 7L4 4L3.99636 1C2.64614 1.00164 1.41681 1.51817 0.468486 2.46487L2.588 4.588ZM4 4V7H20V4V1H4V4ZM20 4V7C19.9106 7 19.7707 6.98229 19.6132 6.91675C19.4561 6.85141 19.3489 6.76651 19.2917 6.70932L21.413 4.588L23.5343 2.46668C22.5847 1.5171 21.3527 1 20 1V4ZM21.413 4.588L19.2917 6.70932C19.2345 6.65215 19.1492 6.54453 19.0836 6.38662C19.0177 6.22815 18.9999 6.08706 19 5.99636L22 6L25 6.00364C25.0016 4.64921 24.484 3.41637 23.5343 2.46668L21.413 4.588ZM22 6H19V18H22H25V6H22ZM22 18H19C19 17.9112 19.0175 17.7719 19.0828 17.6148C19.1479 17.4582 19.2325 17.3509 19.2899 17.2935L21.413 19.413L23.5361 21.5325C24.4845 20.5825 25 19.3511 25 18H22ZM21.413 19.413L19.2899 17.2935C19.3483 17.235 19.4569 17.1491 19.6153 17.0833C19.7741 17.0174 19.9146 16.9999 20.0036 17L20 20L19.9964 23C21.3501 23.0016 22.5849 22.4854 23.5361 21.5325L21.413 19.413ZM20 20V17H4V20V23H20V20ZM12 13L13.59 10.456L5.59 5.456L4 8L2.41 10.544L10.41 15.544L12 13ZM4 18V21H20V18V15H4V18ZM20 18H23V8H20H17V18H20ZM20 8L18.41 5.456L10.41 10.456L12 13L13.59 15.544L21.59 10.544L20 8ZM12 11L13.59 13.544L21.59 8.54399L20 6L18.41 3.456L10.41 8.456L12 11ZM20 6V3H4V6V9H20V6ZM4 6L2.41 8.54399L10.41 13.544L12 11L13.59 8.456L5.59 3.456L4 6ZM4 8H7V6H4H1V8H4ZM4 6H1V18H4H7V6H4Z" fill="#F4EFE6" mask="url(#path-1-inside-1_159_727)"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="image__advert">
+                    <img class="advert__africa" src="images/offroad.png" alt="jeep_safari">
                 </div>
             </div>
         </section>
