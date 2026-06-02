@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style_main.css">
     <link rel="icon" href="images/company_logo.webp">
-    <title>Marco Polo travel</title>
+    <title>Marco Polo Travel</title>
 </head>
 <body>
     <header>
@@ -159,7 +159,7 @@
     </header>
 
     <main>
-        <div class="continents">
+        <section class="continents">
             <section class="continents__titlec" id="zajezdy">
                  <p class="titlec__top">VYBERTE SI SVOU DALŠÍ CESTU</p>
                  <div class="titlec__bottom">
@@ -215,8 +215,8 @@
                     </a>
                 </div>
             </section>
-        </div>
-        <div class="travel">
+        </section>
+        <section class="travel">
             <section class="travel__info">
                 <p class="info__start">PROČ CESTOVAT S NÁMI?</p>
                 <p class="info__title">Cesty, které dávají&nbsp;smysl</p>
@@ -267,9 +267,9 @@
                     </div>
                 </div>
             </section>
-        </div>
+        </section>
 
-        <div class="favourite">
+        <section class="favourite">
             <div class="favourite__top">
                 <div class="top__title">
                     <p class="title__fav">OBLÍBENÉ ZÁJEZDY</p>
@@ -386,10 +386,85 @@
                     <p class="card__price">od 129 950 Kč</p>
                 </a>
             </div>
-        </div>
+        </section>
+
+        <section class="ready__card">
+            <div class="card__first">
+            <img src="images/company_logo.webp" alt="logo">
+            <div class="card__readyinfo">
+                <p class="readyinfo__title">Připraveni na další dobrodružství?</p>
+                <p class="readyinfo__bottom">Ozvěte se nám a my vám pomůžeme naplánovat cestu snů.</p>
+            </div>
+            </div>
+            <a class="ready__button" href="contact.html">
+                <span>KONTAKTUJTE NÁS</span>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.88672 7.82935L7.1709 9.41919L6.27734 10.2473L6.90332 11.2922C7.36579 12.063 8.25358 13.4648 9.38965 14.6008C10.5263 15.7374 11.9281 16.6247 12.7158 17.0911L13.7578 17.7073L14.5801 16.8196L16.1699 15.1028L20.3086 17.8596L18.4844 20.4905H18.4102C16.9796 20.4905 11.8923 20.1708 7.85059 16.1292L7.84961 16.1282L7.44238 15.7043C3.70848 11.6607 3.48844 6.75335 3.49609 5.51685L6.13184 3.6936L8.88672 7.82935Z" stroke="#F4EFE6" stroke-width="3"/>
+                </svg>
+            </a>
+        </section>
     </main>
+
+    <footer class="footer">
+        <div class="footer__up">
+            <div class="up__logo">
+                <div class="logo__section">
+                    <img src="images/company_logo.webp" alt="logo_footer">
+                    <p class="section__title">MARCO POLO<br><span class="title__travel">TRAVEL</span></p>
+                </div>
+                <p class="up__info">Poznávací zájezdy do Afriky, Ameriky a Asie pro ty, kteří chtějí zažít víc než jen dovolenou.</p>
+                <div class="up__icons">
+                    <a class="icons__link" href="https://www.facebook.com/">
+                        <svg class="link__icon" width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M30.0002 28.929H35.3573L37.5002 20.3576H30.0002V16.0718C30.0002 13.8647 30.0002 11.7861 34.2859 11.7861H37.5002V4.58613C36.8016 4.49399 34.1638 4.28613 31.378 4.28613C25.5602 4.28613 21.4288 7.83685 21.4288 14.3576V20.3576H15.0002V28.929H21.4288V47.1433H30.0002V28.929Z" fill="#C89B3C"/>
+                        </svg>
+                    </a>
+                    <a class="icons__link" href="https://www.instagram.com/">
+                        <svg class="link__icon" width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.7142 4.28613H34.7142C41.5714 4.28613 47.1428 9.85756 47.1428 16.7147V34.7147C47.1428 38.011 45.8334 41.1722 43.5025 43.503C41.1717 45.8338 38.0105 47.1433 34.7142 47.1433H16.7142C9.85707 47.1433 4.28564 41.5718 4.28564 34.7147V16.7147C4.28564 13.4184 5.59508 10.2572 7.92589 7.92638C10.2567 5.59557 13.418 4.28613 16.7142 4.28613ZM16.2856 8.57185C14.2397 8.57185 12.2775 9.3846 10.8308 10.8313C9.38411 12.278 8.57136 14.2402 8.57136 16.2861V35.1433C8.57136 39.4076 12.0214 42.8576 16.2856 42.8576H35.1428C37.1887 42.8576 39.1509 42.0448 40.5976 40.5981C42.0443 39.1514 42.8571 37.1892 42.8571 35.1433V16.2861C42.8571 12.0218 39.4071 8.57185 35.1428 8.57185H16.2856ZM36.9642 11.7861C37.6746 11.7861 38.3559 12.0683 38.8583 12.5707C39.3606 13.073 39.6428 13.7543 39.6428 14.4647C39.6428 15.1751 39.3606 15.8564 38.8583 16.3587C38.3559 16.8611 37.6746 17.1433 36.9642 17.1433C36.2538 17.1433 35.5725 16.8611 35.0702 16.3587C34.5678 15.8564 34.2856 15.1751 34.2856 14.4647C34.2856 13.7543 34.5678 13.073 35.0702 12.5707C35.5725 12.0683 36.2538 11.7861 36.9642 11.7861ZM25.7142 15.0004C28.5558 15.0004 31.281 16.1292 33.2904 18.1386C35.2997 20.1479 36.4285 22.8731 36.4285 25.7147C36.4285 28.5563 35.2997 31.2815 33.2904 33.2908C31.281 35.3002 28.5558 36.429 25.7142 36.429C22.8726 36.429 20.1474 35.3002 18.1381 33.2908C16.1288 31.2815 14.9999 28.5563 14.9999 25.7147C14.9999 22.8731 16.1288 20.1479 18.1381 18.1386C20.1474 16.1292 22.8726 15.0004 25.7142 15.0004ZM25.7142 19.2861C24.0093 19.2861 22.3741 19.9634 21.1685 21.169C19.9629 22.3746 19.2856 24.0097 19.2856 25.7147C19.2856 27.4197 19.9629 29.0548 21.1685 30.2604C22.3741 31.466 24.0093 32.1433 25.7142 32.1433C27.4192 32.1433 29.0543 31.466 30.2599 30.2604C31.4655 29.0548 32.1428 27.4197 32.1428 25.7147C32.1428 24.0097 31.4655 22.3746 30.2599 21.169C29.0543 19.9634 27.4192 19.2861 25.7142 19.2861Z" fill="#C89B3C"/>
+                        </svg>
+                    </a>
+                    <a class="icons__link" href="https://www.youtube.com/">
+                        <svg class="link__icon" width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21.4286 32.1424L32.5501 25.7139L21.4286 19.2853V32.1424ZM46.2 15.3639C46.4786 16.371 46.6715 17.721 46.8001 19.4353C46.9501 21.1496 47.0143 22.6282 47.0143 23.9139L47.1429 25.7139C47.1429 30.4067 46.8 33.8567 46.2 36.0639C45.6643 37.9924 44.4215 39.2353 42.4929 39.771C41.4858 40.0496 39.6429 40.2424 36.8143 40.371C34.0286 40.521 31.4786 40.5853 29.1215 40.5853L25.7143 40.7139C16.7358 40.7139 11.1429 40.371 8.93577 39.771C7.0072 39.2353 5.76434 37.9924 5.22862 36.0639C4.95005 35.0567 4.7572 33.7067 4.62862 31.9924C4.47862 30.2782 4.41434 28.7996 4.41434 27.5139L4.28577 25.7139C4.28577 21.021 4.62862 17.571 5.22862 15.3639C5.76434 13.4353 7.0072 12.1924 8.93577 11.6567C9.94291 11.3782 11.7858 11.1853 14.6143 11.0567C17.4001 10.9067 19.9501 10.8424 22.3072 10.8424L25.7143 10.7139C34.6929 10.7139 40.2858 11.0567 42.4929 11.6567C44.4215 12.1924 45.6643 13.4353 46.2 15.3639Z" fill="#C89B3C"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="up__links">
+                <p class="links__title">Rychlé odkazy</p>
+                <a class="links__item" href="#">Destinace</a>
+                <a class="links__item" href="#">Typy zájezdů</a>
+                <a class="links__item" href="#">O nás</a>
+                <a class="links__item" href="#">Kontakt</a>
+            </div>
+            <div class="up__links">
+                <p class="links__title">Oblíbené destinace</p>
+                <a class="links__item" href="#">Afrika</a>
+                <a class="links__item" href="#">Asie</a>
+                <a class="links__item" href="#">Jižní Amerika</a>
+                <a class="links__item" href="#">Austrálie</a>
+            </div>
+            <div class="up__links">
+                <p class="links__title">Adresa pobočky</p>
+                <p class="links__item links__item--adr" href="#">Marco polo Travel s. r. o.</p>
+                <p class="links__item links__item--adr" href="#">Vinohradská 1292/65 </p>
+                <p class="links__item links__item--adr" href="#">120 00 Praha 3</p>
+                <p class="links__item links__item--adr" href="#">Česká republika</p>
+            </div>
+        </div>
+        
+        <div class="footer__down">
+            <div class="down__rights">
+                <span class="rights__company">©2026 MARCO POLO TRAVEL</span>
+                <span>Všechna práva vyhrazena.</span>
+            </div>
+            <div class="down__links">
+                <a class="links_foot" href="https://uoou.gov.cz/verejnost/zakladni-prirucka-k-ochrane-udaju">Ochrana osobních údajů</a>
+                <a class="links_foot" href="https://www.uzis.cz/index.php?pg=home--cookies">Soubory cookies</a>
+                <p class="viktoravec">MADE BY VIKTORAVEC</p>
+            </div>
+        </div>
+    </footer>
 </body>
-
-
-
 </html>
