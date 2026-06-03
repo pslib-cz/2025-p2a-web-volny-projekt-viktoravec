@@ -110,7 +110,8 @@
         font-family: var(--literata);
         font-size: clamp(1rem, 3vw, 1.75rem);
         margin: 0;
-        letter-spacing: .65rem;
+        padding-left: .7rem;
+        letter-spacing: .9rem;
     }
     .nav__menu {
         display: flex;
@@ -947,7 +948,7 @@
     .footer__up {
         display: grid;
         grid-template-columns: 1fr;
-        max-width: 1700px;
+        max-width: 1900px;
         margin: 0 auto;
         margin-top: 5rem;
     }
