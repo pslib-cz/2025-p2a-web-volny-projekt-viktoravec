@@ -373,6 +373,8 @@
         font-weight: 750;
         margin: 0;
         font-size: clamp(1rem, 5vw, 1.5rem);
+        color: var(--dark_charcoal);
+        text-decoration: none;
     }
     .description__details {
         font-family: var(--inter);
@@ -530,8 +532,8 @@
     .image__advert {
         border-radius: 1rem;
         overflow: hidden;
+        max-height: 620px;
     }
-
     .advert__africa {
         width: 100%;
         height: 100%;
@@ -574,7 +576,6 @@
         border-radius: 1rem;
         padding: 1.5rem;
         height: 100%;
-        align-items: center;
     }
     .forms__first {
         color: var(--pure_white);
