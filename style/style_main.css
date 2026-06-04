@@ -111,7 +111,7 @@
         font-size: clamp(1rem, 3vw, 1.75rem);
         margin: 0;
         padding-left: .7rem;
-        letter-spacing: .9rem;
+        letter-spacing: clamp(0.6rem, 2vw, 0.9rem);
     }
     .nav__menu {
         display: flex;
@@ -185,7 +185,7 @@
         padding-top: 1rem;
         white-space: normal;
         word-break: break-word;
-}
+    }
 
     .title__bottom {
         font-family: var(--inter);
@@ -333,11 +333,11 @@
             text-align: start;
         }
         .features__item::after {
-        display: block;
+            display: block;
         }
     }
     
-    /*kontinenty vyber*/
+/*kontinenty vyber*/
     .continents__titlec {
         display: flex;
         flex-direction: column;
@@ -637,7 +637,6 @@
     }
 
 /*oblibeny zajezdy*/
-
     .favourite {
         background-color: var(--light_gray);
         padding: clamp(1rem, 4svw, 2rem);
