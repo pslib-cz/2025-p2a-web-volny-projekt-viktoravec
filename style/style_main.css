@@ -175,6 +175,7 @@
         font-size: clamp(1rem, 2vw, 1.5rem);
         white-space: normal;
         word-break: break-word;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     }
     .title__main {
         font-family: var(--literata);
@@ -185,6 +186,7 @@
         padding-top: 1rem;
         white-space: normal;
         word-break: break-word;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     }
 
     .title__bottom {
@@ -196,6 +198,7 @@
         padding-top: 1rem;
         margin-right: 2rem;
         max-width: clamp(280px, 35vw, 600px);
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     }
 
 /*header tlacitka 2x pod textem*/
