@@ -26,6 +26,7 @@
 
     body {
         margin: 0 auto;
+        overflow-x: clip;
     }
     html {
         scroll-behavior: smooth;
@@ -212,8 +213,13 @@
         color: var(--sunset_gold);
         text-decoration: none;
         text-align: center;
+        font-family: var(--inter);
+        font-weight: 600;
         padding: 16px 20px;
         border-bottom: 1px solid var(--sunset_gold);
+    }
+    .menu__mobile a:hover {
+        color: var(--deep_safari_hover);
     }
     .menu__mobile a:last-child {
         border-bottom: none;
