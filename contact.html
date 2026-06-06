@@ -91,7 +91,24 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
                         </li>
                     </ul>
                 </nav>
+                <div class="nav__mobile">
+                    <input type="checkbox" id="menu-toggle">
+
+                    <label for="menu-toggle" class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                    <div class="menu__mobile">
+                        <a href="index.html#zajezdy">DESTINACE</a>
+                        <a href="index.html#vyhody">VÝHODY</a>
+                        <a href="index.html#favourite">INSPIRACE</a>
+                        <a href="contact.html">KONTAKT</a>
+                        <a href="#team">NÁŠ TÝM</a>
+                    </div>
+                </div>
             </div>
+
             <div class="header__title">
                 <h1 class="title__main">Kontakt & O nás</h1>
                 <h2 class="title__bottom">Rádi vám pomůžeme naplánovat vaši cestu snů. Jsme tu pro vás</h2>
@@ -183,7 +200,7 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
             </div>
         </section>
 
-        <section class="team">
+        <section class="team" id="team">
             <div class="team__title">
                 <p class="title__text">Náš tým</p>
                 <span class="bottom__line bottom__line--down"></span>
@@ -672,11 +689,24 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
             },
-
+            
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
             },
+        });
+        const checkbox = document.getElementById("menu-toggle");
+        const links = document.querySelectorAll(".menu__mobile a");
+    
+        links.forEach(link => {
+            link.addEventListener("click", () => {
+                checkbox.checked = false;
+                document.body.classList.remove("menu-open");
+                document.documentElement.classList.remove("menu-open");
+            });
+        });
+        checkbox.addEventListener("change", () => {
+            document.body.classList.toggle("menu-open", checkbox.checked);
         });
     </script>
 </body>

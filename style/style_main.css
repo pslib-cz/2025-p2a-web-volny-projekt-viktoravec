@@ -190,30 +190,25 @@
         transition: 0.25s;
     }
     .menu__mobile {
-    position: fixed;
-            top: 9.5rem;
-    right: 0;
-    left: 0;
-    bottom: 0;
+        position: fixed;
+        top: 9.5rem;
+        right: 0;
+        left: 0;
+        bottom: 0;
         display: flex;
         flex-direction: column;
-
-    width: auto;
-    height: 100dvh;
-
-    background: var(--dark_charcoal);
-
-    transform: translateX(100%);
-    transition: transform 0.4s ease;
-
-    z-index: 9999;
+        height: 100vh;
+        background: var(--dark_charcoal);
+        transform: translateX(100%);
+        transition: transform 0.4s ease;
+        z-index: 10;
     }
     body.menu-open {
-    overflow: hidden;
-}
-#menu-toggle:checked ~ .menu__mobile {
-    transform: translateX(0);
-}
+        overflow: hidden;
+    }
+    #menu-toggle:checked ~ .menu__mobile {
+        transform: translateX(0);
+    }
     .menu__mobile a {
         color: var(--sunset_gold);
         text-decoration: none;
@@ -248,7 +243,6 @@
             display: none;
         }
     }
-
 
 /*text hlavni header*/
     .header__title {
@@ -1251,4 +1245,6 @@
             padding: 1rem;
         }
     }
+
+    
 }

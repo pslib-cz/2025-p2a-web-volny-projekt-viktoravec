@@ -98,16 +98,16 @@
                             <span></span>
                         </label>
                         <div class="menu__mobile">
-                            <a href="index.html">DESTINACE</a>
-                            <a href="index.html">VÝHODY</a>
-                            <a href="index.html">INSPIRACE</a>
-                            <a href="index.html">KONTAKT</a>
-                            <a href="index.html">NÁŠ TÝM</a>
+                            <a href="#zajezdy">DESTINACE</a>
+                            <a href="#vyhody">VÝHODY</a>
+                            <a href="#favourite">INSPIRACE</a>
+                            <a href="contact.html">KONTAKT</a>
+                            <a href="contact.html#team">NÁŠ TÝM</a>
                         </div>
                     </div>
                 </nav>
-
             </div>
+
             <div class="header__title">
                 <h2 class="title__top">POZNÁVEJTE. ZAŽÍVEJTE. INSPIRUJTE&nbspSE.</h2>
                 <h1 class="title__main">Výjimečné cesty do exotických světů</h1>
@@ -300,7 +300,6 @@
                     </svg>
                 </a>
             </div>
-            
             <div class="favourite__items">
                 <a class="items__card">
                     <div class="image__wrapper">
@@ -470,7 +469,6 @@
                 <p class="links__item links__item--adr" href="#">Česká republika</p>
             </div>
         </div>
-        
         <div class="footer__down">
             <div class="down__rights">
                 <span class="rights__company">©2026 MARCO POLO TRAVEL</span>
@@ -483,12 +481,20 @@
             </div>
         </div>
     </footer>
-<script>
-const checkbox = document.getElementById("menu-toggle");
+    <script>
+        const checkbox = document.getElementById("menu-toggle");
+        const links = document.querySelectorAll(".menu__mobile a");
 
-checkbox.addEventListener("change", () => {
-    document.body.classList.toggle("menu-open", checkbox.checked);
-});
-</script>
+        links.forEach(link => {
+            link.addEventListener("click", () => {
+                checkbox.checked = false;
+                document.body.classList.remove("menu-open");
+                document.documentElement.classList.remove("menu-open");
+            });
+        });
+        checkbox.addEventListener("change", () => {
+            document.body.classList.toggle("menu-open", checkbox.checked);
+        });
+    </script>
 </body>
 </html>
