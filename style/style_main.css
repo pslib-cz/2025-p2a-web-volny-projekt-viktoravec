@@ -191,13 +191,13 @@
     }
     .menu__mobile {
     position: fixed;
-    top: 0;
+            top: 9.5rem;
     right: 0;
     left: 0;
     bottom: 0;
         display: flex;
         flex-direction: column;
-        margin-top: 9.5rem;
+
     width: auto;
     height: 100dvh;
 
@@ -208,6 +208,9 @@
 
     z-index: 9999;
     }
+    body.menu-open {
+    overflow: hidden;
+}
 #menu-toggle:checked ~ .menu__mobile {
     transform: translateX(0);
 }

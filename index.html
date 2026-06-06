@@ -483,5 +483,12 @@
             </div>
         </div>
     </footer>
+<script>
+const checkbox = document.getElementById("menu-toggle");
+
+checkbox.addEventListener("change", () => {
+    document.body.classList.toggle("menu-open", checkbox.checked);
+});
+</script>
 </body>
 </html>
