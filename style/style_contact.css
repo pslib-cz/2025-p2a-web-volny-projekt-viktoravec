@@ -92,7 +92,6 @@
     .nav__logo {
         display: flex;
         align-items: center;
-        gap: clamp(5px, 1vw, 100px);
         text-decoration: none;
         padding: 1vw;
     }
@@ -102,6 +101,7 @@
         }
         .nav__logo {
             padding: 0;
+            gap: 1rem;
         }
     }
     .logo__text {
@@ -263,7 +263,7 @@
         font-weight: 700;
         margin: 0;
         margin-right: 2rem;
-        font-size: clamp(1rem, 2vw, 1.5rem);
+        font-size: clamp(1.25rem, 2vw, 1.5rem);
         white-space: normal;
         word-break: break-word;
     }
@@ -280,7 +280,7 @@
     .title__bottom {
         font-family: var(--inter);
         font-weight: 600;
-        font-size: clamp(1rem, 2vw, 1.5rem);
+        font-size: clamp(1.25rem, 2vw, 1.5rem);
         color: var(--pure_white);
         margin: 0;
         padding-top: 1rem;
