@@ -809,6 +809,9 @@
 /*na miru*/
     .prepare {
         padding: 1rem;
+        max-width: 1700px;
+        width: calc(100%- 2rem);
+        justify-self: center;
     }
     .card__img {
         background-image: url("../images/rock_peple.png");
@@ -817,22 +820,16 @@
         background-repeat: no-repeat;
         height: 300px;
     }
-    .prepare__card {
-        overflow: hidden;
-        background-color: var(--dark_charcoal);
-        border-radius: 1rem;
-        display: flex;
-        flex-direction: column;
-    }
     .card__info {
-        padding: 1rem;
+        padding: clamp(1rem, 4vw, 2rem);
+
     }
     .info__top {
         color: var(--sunset_gold);
         font-family: var(--inter);
         font-weight: 600;
         margin: 0;
-        font-size: clamp(1rem, 4vw, 1.5rem);
+        font-size: clamp(1rem, 4vw, 1.25rem);
     }
     .info__main {
         font-family: var(--literata);
@@ -846,7 +843,7 @@
         color: var(--pure_white);
         font-family: var(--inter);
         font-weight: 400;
-        font-size: clamp(1rem, 4vw, 1.5rem);
+        font-size: clamp(1rem, 4vw, 1.15rem);
     }
     .button--back {
         display: flex;
@@ -870,17 +867,16 @@
     .button--special {
         display: flex;
         padding: .3rem 1rem;
-        justify-self: center;
         justify-content: space-between;
         gap: .5rem;
         background-color: var(--sunset_gold);
         color: var(--pure_white);
         font-family: var(--inter);
         font-weight: 650;
-        font-size: clamp(.8rem, 4vw, 1.5rem);
+        font-size: clamp(.8rem, 4vw, 1.15rem);
         text-decoration: none;
         align-items: center;
-        max-width: 500px;
+        max-width: 300px;
         width: calc(100% - 2rem);
         border-radius: .8rem;
     }
@@ -898,6 +894,25 @@
 }
 .prepare__card:hover {
   box-shadow: 0 0 30px 10px var(--deep_safari);
+}
+
+@media (min-width: 1200px) {
+    .prepare__card {
+        flex-direction: row;
+    }
+        .card__img {
+        min-width: 650px;
+    }
+
+    .card__img {
+        width: 50%;
+        height: auto;
+        min-height: 100%;
+    }
+
+    .card__info {
+        width: 50%;
+    }
 }
 
 /*footer*/
