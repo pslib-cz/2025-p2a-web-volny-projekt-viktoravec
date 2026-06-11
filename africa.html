@@ -177,37 +177,48 @@
             </section>
             <section class="continents__filters">
 
-                <label class="filters__name" for="country">TYP ZÁJEZDU</label>
+                <div class="filter__component">
+                                    <label class="filters__name" for="country">TYP ZÁJEZDU</label>
                 <select class="filters__item" id="country" name="country">
                     <option value="">Všechny typy</option>
                     <option value="cz">Poznávací</option>
                     <option value="sk">Dobrodružné</option>
                     <option value="pl">Relaxační</option>
                 </select>
-                
-            <label class="filters__name" for="country">DÉLKA</label>
+                </div>
+
+            
+                <div class="filter__component">
+                                <label class="filters__name" for="country">DÉLKA</label>
             <select class="filters__item" id="country" name="country">
               <option value="">Jakákoli délka</option>
               <option value="cz">1 Týden</option>
               <option value="sk">2 Týdny</option>
               <option value="pl">1 Měsíc</option>
             </select>
+                </div>
 
-            <label class="filters__name" for="country">TERMÍN</label>
+
+                <div class="filter__component">
+                                <label class="filters__name" for="country">TERMÍN</label>
             <select class="filters__item" id="country" name="country">
               <option value="">Jakýkoli termín</option>
               <option value="cz">Duben až červen</option>
               <option value="sk">Červenec až září</option>
               <option value="pl">Říjen až listopad</option>
             </select>
-            </section>
-
-            <a class="show__map" href="https://www.google.com/maps/@17.0699437,5.6890331,34457572m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D">
+                            </div>
+                                        <a class="show__map" target="_blank" href="https://www.google.com/maps/@37.5940025,26.6023799,10105498m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D">
                 <svg width="45" height="39" viewBox="0 0 45 39" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M30.096 34.848V6.33598M14.256 31.68V3.16798M1.58398 7.91998L14.256 1.58398L30.096 7.91998L42.768 1.58398V30.096L30.096 36.432L14.256 30.096L1.58398 36.432V7.91998Z" stroke="#C89B3C" stroke-width="3.168" stroke-linejoin="round"/>
                 </svg>
                 <p>ZOBRAZIT MAPU</p>
             </a>
+            </section>
+
+
+
+
         </section>
 
         <section class="trips">
@@ -233,15 +244,19 @@
                             <li>Pozorování Big Five</li>
                             <li>Velké Safari v Savaně uprostřed divočiny</li>
                         </ul>
-                        <p class="item__price">od 95 490 Kč</p>
-                        <span class="item__person">za osobu</span>
-                        <a class="button button--more" href="#zajezdy">
-                            <p>VYŽÁDAT VÍCE INFO</p>
-                            <svg width="21" height="17" viewBox="0 0 21 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1.5 8.5H19" stroke="#F4EFE6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M12.5001 15.5L19.5001 8.5L12.5001 1.5" stroke="#F4EFE6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </a>
+                        <div class="item__main">
+                            <div>
+                                <p class="item__price">od 95 490 Kč</p>
+                                <span class="item__person">za osobu</span>
+                            </div>
+                            <a class="button button--more" href="#zajezdy">
+                                <p>VYŽÁDAT VÍCE INFO</p>
+                                <svg width="21" height="17" viewBox="0 0 21 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.5 8.5H19" stroke="#F4EFE6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M12.5001 15.5L19.5001 8.5L12.5001 1.5" stroke="#F4EFE6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
                     <div class="item__date">
                         <div class="date__detail">
@@ -279,15 +294,19 @@
                             <li>Pozorování Big Five</li>
                             <li>Velké Safari v Savaně uprostřed divočiny</li>
                         </ul>
-                        <p class="item__price">od 95 490 Kč</p>
-                        <span class="item__person">za osobu</span>
-                        <a class="button button--more" href="#zajezdy">
-                            <p>VYŽÁDAT VÍCE INFO</p>
-                            <svg width="21" height="17" viewBox="0 0 21 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1.5 8.5H19" stroke="#F4EFE6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M12.5001 15.5L19.5001 8.5L12.5001 1.5" stroke="#F4EFE6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </a>
+                        <div class="item__main">
+                            <div>
+                                <p class="item__price">od 95 490 Kč</p>
+                                <span class="item__person">za osobu</span>
+                            </div>
+                            <a class="button button--more" href="#zajezdy">
+                                <p>VYŽÁDAT VÍCE INFO</p>
+                                <svg width="21" height="17" viewBox="0 0 21 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.5 8.5H19" stroke="#F4EFE6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M12.5001 15.5L19.5001 8.5L12.5001 1.5" stroke="#F4EFE6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
                     <div class="item__date">
                         <div class="date__detail">
@@ -325,15 +344,19 @@
                             <li>Pozorování Big Five</li>
                             <li>Velké Safari v Savaně uprostřed divočiny</li>
                         </ul>
-                        <p class="item__price">od 95 490 Kč</p>
-                        <span class="item__person">za osobu</span>
-                        <a class="button button--more" href="#zajezdy">
-                            <p>VYŽÁDAT VÍCE INFO</p>
-                            <svg width="21" height="17" viewBox="0 0 21 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1.5 8.5H19" stroke="#F4EFE6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M12.5001 15.5L19.5001 8.5L12.5001 1.5" stroke="#F4EFE6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </a>
+                        <div class="item__main">
+                            <div>
+                                <p class="item__price">od 95 490 Kč</p>
+                                <span class="item__person">za osobu</span>
+                            </div>
+                            <a class="button button--more" href="#zajezdy">
+                                <p>VYŽÁDAT VÍCE INFO</p>
+                                <svg width="21" height="17" viewBox="0 0 21 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.5 8.5H19" stroke="#F4EFE6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M12.5001 15.5L19.5001 8.5L12.5001 1.5" stroke="#F4EFE6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
                     <div class="item__date">
                         <div class="date__detail">
@@ -371,15 +394,19 @@
                             <li>Pozorování Big Five</li>
                             <li>Velké Safari v Savaně uprostřed divočiny</li>
                         </ul>
-                        <p class="item__price">od 95 490 Kč</p>
-                        <span class="item__person">za osobu</span>
-                        <a class="button button--more" href="#zajezdy">
-                            <p>VYŽÁDAT VÍCE INFO</p>
-                            <svg width="21" height="17" viewBox="0 0 21 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1.5 8.5H19" stroke="#F4EFE6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M12.5001 15.5L19.5001 8.5L12.5001 1.5" stroke="#F4EFE6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </a>
+                        <div class="item__main">
+                            <div>
+                                <p class="item__price">od 95 490 Kč</p>
+                                <span class="item__person">za osobu</span>
+                            </div>
+                            <a class="button button--more" href="#zajezdy">
+                                <p>VYŽÁDAT VÍCE INFO</p>
+                                <svg width="21" height="17" viewBox="0 0 21 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.5 8.5H19" stroke="#F4EFE6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M12.5001 15.5L19.5001 8.5L12.5001 1.5" stroke="#F4EFE6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
                     <div class="item__date">
                         <div class="date__detail">
@@ -417,15 +444,19 @@
                             <li>Pozorování Big Five</li>
                             <li>Velké Safari v Savaně uprostřed divočiny</li>
                         </ul>
-                        <p class="item__price">od 95 490 Kč</p>
-                        <span class="item__person">za osobu</span>
-                        <a class="button button--more" href="#zajezdy">
-                            <p>VYŽÁDAT VÍCE INFO</p>
-                            <svg width="21" height="17" viewBox="0 0 21 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1.5 8.5H19" stroke="#F4EFE6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M12.5001 15.5L19.5001 8.5L12.5001 1.5" stroke="#F4EFE6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </a>
+                        <div class="item__main">
+                            <div>
+                                <p class="item__price">od 95 490 Kč</p>
+                                <span class="item__person">za osobu</span>
+                            </div>
+                            <a class="button button--more" href="#zajezdy">
+                                <p>VYŽÁDAT VÍCE INFO</p>
+                                <svg width="21" height="17" viewBox="0 0 21 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.5 8.5H19" stroke="#F4EFE6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M12.5001 15.5L19.5001 8.5L12.5001 1.5" stroke="#F4EFE6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
                     <div class="item__date">
                         <div class="date__detail">
@@ -463,15 +494,19 @@
                             <li>Pozorování Big Five</li>
                             <li>Velké Safari v Savaně uprostřed divočiny</li>
                         </ul>
-                        <p class="item__price">od 95 490 Kč</p>
-                        <span class="item__person">za osobu</span>
-                        <a class="button button--more" href="#zajezdy">
-                            <p>VYŽÁDAT VÍCE INFO</p>
-                            <svg width="21" height="17" viewBox="0 0 21 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1.5 8.5H19" stroke="#F4EFE6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M12.5001 15.5L19.5001 8.5L12.5001 1.5" stroke="#F4EFE6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </a>
+                        <div class="item__main">
+                            <div>
+                                <p class="item__price">od 95 490 Kč</p>
+                                <span class="item__person">za osobu</span>
+                            </div>
+                            <a class="button button--more" href="#zajezdy">
+                                <p>VYŽÁDAT VÍCE INFO</p>
+                                <svg width="21" height="17" viewBox="0 0 21 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.5 8.5H19" stroke="#F4EFE6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M12.5001 15.5L19.5001 8.5L12.5001 1.5" stroke="#F4EFE6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
                     <div class="item__date">
                         <div class="date__detail">
