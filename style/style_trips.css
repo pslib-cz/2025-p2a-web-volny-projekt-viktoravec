@@ -710,7 +710,7 @@
     .item__bg--australie {
         position: absolute;
         inset: 0;
-        background-image: url("../images/TNT15-foto-Vojtech_Duchoslav-Marek_Duransky-Radoslaw_Jona-Zdenek_Kratky-01.jpg");
+        background-image: url("../images/trabant.webp");
         background-size: cover;
         background-position: center;
         transform: scale(1);
@@ -904,7 +904,7 @@
         justify-self: center;
     }
     .card__img {
-        background-image: url("../images/rock_peple.png");
+        background-image: url("../images/rock_peple.webp");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -1226,5 +1226,5 @@
     
 
 
-    
+
 }
