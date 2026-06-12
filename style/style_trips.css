@@ -625,27 +625,31 @@
     }
     .show__map {
         display: flex;
-        gap: 1rem;
         background-color: var(--deep_safari);
         text-decoration: none;
         justify-content: center;
+        gap: 1rem;
         width: 100%;
         align-items: center;
         justify-self: center;
-        margin-top: 1rem;
+        margin: 0;
         max-width: 400px;
         border-radius: .5rem;
+        max-height: 52px;
     }
     .show__map:hover {
         background-color: var(--deep_safari_hover);
     }
+    .show__map svg {
+        padding: .6rem;
+    }
     .show__map p {
-        padding: .9rem 1.5rem;
+        padding: .9rem 1rem;
         color: var(--pure_white);
         font-family: var(--inter);
         font-weight: 700;
         margin: 0;
-        font-size: clamp(1.2rem, 3vw, 1.25rem);
+        font-size: clamp(1rem, 3vw, 1.25rem);
     }
     @media(min-width: 1200px) {
     .continents__filters {
@@ -1222,9 +1226,5 @@
             padding: 1rem;
         }
     }
-
-    
-
-
 
 }
