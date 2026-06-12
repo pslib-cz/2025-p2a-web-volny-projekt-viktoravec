@@ -49,3 +49,4 @@ _Shrnutí všech odkazů na jednom místě. Průběžně aktualizováno._
 Prostor pro vlastní poznámky, zpětnou vazbu, TODO apod.
 
 _Roads? Where we are going we don't need roads!_
+## Funkčnost zaručena do 320px
