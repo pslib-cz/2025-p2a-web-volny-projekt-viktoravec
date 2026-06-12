@@ -108,7 +108,7 @@
 /*menu navbar nahore*/
     .logo__graphic {
         width: auto;
-        height: clamp(80px, 14vw, 100px);
+        height: clamp(85px, 14vw, 100px);
     }
     .header__nav {
         display: flex;
