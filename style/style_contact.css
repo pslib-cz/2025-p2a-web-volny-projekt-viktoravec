@@ -101,7 +101,7 @@
         }
         .nav__logo {
             padding: 0;
-            gap: 1rem;
+            gap: .5rem;
         }
     }
     .logo__text {
